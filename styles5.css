@@ -1,0 +1,7 @@
+# Styles for the button element button {
+  background-color: #2563eb;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}

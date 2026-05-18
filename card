@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles6.css" />
+  </head>
+  <body>
+    <div class="card">
+      <h2 class="card-title">Card Title</h2>
+      <p class="card-text">This is some card content. Make it look nice!</p>
+    </div>
+  </body>
+</html>

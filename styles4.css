@@ -1,0 +1,7 @@
+/* Add background, border, padding, and margin */
+.box {
+  background-color: #dbeafe;
+  border: 2px solid #3b82f6;
+  padding: 20px;
+  margin: 16px;
+}

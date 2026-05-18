@@ -1,0 +1,5 @@
+/* Style only elements with class="highlight" */
+.highlight {
+  background-color: yellow;
+  padding: 8px;
+}

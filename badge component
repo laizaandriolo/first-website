@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles10.css" />
+  </head>
+  <body>
+    <span class="badge">Default</span>
+    <span class="badge success">Success</span>
+    <span class="badge warning">Warning</span>
+    <span class="badge error">Error</span>
+  </body>
+</html>

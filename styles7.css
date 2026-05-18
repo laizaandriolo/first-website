@@ -1,0 +1,18 @@
+/* 1. Remove bullets da lista */
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* 2. Deixa os itens em linha */
+nav li {
+  display: inline;
+}
+
+/* 3. Estiliza os links */
+nav a {
+  text-decoration: none;
+  padding: 8px 16px;
+  color: #1f2937;
+}

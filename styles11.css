@@ -1,0 +1,21 @@
+/* Base alert styles */
+.alert sucess {
+  padding: 12px 20px;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  border-left: 4px solid;
+}
+
+/* Success variant */
+.sucess.alert {
+  background-color: #dcfce7;
+  border-color: #dcfce7;
+  color: #16a34a;
+}
+
+/* Error variant */
+.error {
+  background-color: #fee2e2;
+  border-color: bisque;
+  color: #dc2626;
+}

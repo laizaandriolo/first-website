@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles11.css" />
+  </head>
+  <body>
+    <div class="alert success">Success! Your changes have been saved.</div>
+    <div class="alert error">Error! Something went wrong.</div>
+  </body>
+</html>
