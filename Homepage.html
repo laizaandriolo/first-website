@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Laiza Andriolo</title>
+
+    <!-- Google Fonts: Playfair Display (elegant, big) + DM Sans (friendly body) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&family=DM+Sans:wght@400;500&family=DM+Mono:wght@400&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css.css" />
+  </head>
+
+  <body>
+    <!-- ==== NAVIGATION BAR ==== -->
+    <nav class="nav">
+      <div class="nav-inner">
+        <span class="wordmark">Laiza Andriolo</span>
+        <div class="nav-links">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ==== HERO ==== -->
+    <section class="hero">
+      <div id="particles-js"></div>
+      <div class="hero-content">
+        <p class="eyebrow">Data visualization Expert</p>
+        <h1>Laiza Andriolo</h1>
+        <img
+          class="hero-photo fade-in"
+          src="picture.jpeg"
+          alt="Profile picture"
+          width="180"
+        />
+        <p class="hero-sub">Turning numbers into narratives.</p>
+        <div class="contact-icons hero-icons">
+          <a href="mailto:laiza.andriolo@gmail.com" title="Email">
+            <i class="fa-solid fa-envelope"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/laiza-andriolo-da-rocha-ramos/"
+            target="_blank"
+            title="LinkedIn"
+          >
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+          <a
+            href="https://github.com/laizaandriolo"
+            target="_blank"
+            title="GitHub"
+          >
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </div>
+        <div class="hero-cta">
+          <a href="#about" class="btn-primary">Learn more</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==== ABOUT ME SECTION ==== -->
+    <section class="section" id="about">
+      <div class="container">
+        <span class="section-label">About me</span>
+        <div class="about-grid">
+          <div class="about-text fade-in">
+            <div class="about-block">
+              <span class="about-block-label">What I do</span>
+              <p>
+                I'm a Data Visualization Specialist at FAO — the UN's Food and
+                Agriculture Organization — where I design dashboards and build
+                the data pipelines behind them, turning agricultural and
+                food-security data into stories anyone can read.
+              </p>
+            </div>
+
+            <div class="about-block">
+              <span class="about-block-label">Background</span>
+              <p>
+                Economics (MSc, Sapienza University of Rome) and Data Science
+                (MBA, USP). Five-plus years across analytics, data engineering
+                and visualization.
+              </p>
+            </div>
+
+            <div class="about-block">
+              <span class="about-block-label">Beyond data</span>
+              <p>
+                I'm also a painter — and that artistic practice shapes how I see
+                clarity, balance and beauty in data.
+              </p>
+            </div>
+          </div>
+          <div class="about-sidebar fade-in">
+            <div class="sidebar-block">
+              <span class="sidebar-label">Skills</span>
+              <div id="skills-chart" class="skills-chart"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Timeline: work experience (horizontal) -->
+        <div class="timeline-wrapper fade-in">
+          <h3 class="timeline-heading">Work experience</h3>
+          <ol class="timeline-h">
+            <li class="timeline-h-item">
+              <span class="timeline-h-title">Product Management Analyst</span>
+              <div class="timeline-h-mid">
+                <span class="timeline-h-line"></span>
+                <span class="timeline-h-dot"></span>
+                <span class="timeline-h-year">2018</span>
+              </div>
+              <span class="timeline-h-org">Egali Intercâmbio</span>
+            </li>
+
+            <li class="timeline-h-item">
+              <span class="timeline-h-title">Program Mgmt &amp; M&amp;E</span>
+              <div class="timeline-h-mid">
+                <span class="timeline-h-line"></span>
+                <span class="timeline-h-dot"></span>
+                <span class="timeline-h-year">2021</span>
+              </div>
+              <span class="timeline-h-org">UNDP</span>
+            </li>
+
+            <li class="timeline-h-item">
+              <span class="timeline-h-title">Data Analyst</span>
+              <div class="timeline-h-mid">
+                <span class="timeline-h-line"></span>
+                <span class="timeline-h-dot"></span>
+                <span class="timeline-h-year">2022</span>
+              </div>
+              <span class="timeline-h-org">FAO</span>
+            </li>
+
+            <li class="timeline-h-item timeline-h-item-current">
+              <span class="timeline-h-title"
+                >Data Visualization Specialist</span
+              >
+              <div class="timeline-h-mid">
+                <span class="timeline-h-line"></span>
+                <span class="timeline-h-dot"></span>
+                <span class="timeline-h-year">present</span>
+              </div>
+              <span class="timeline-h-org">FAO</span>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==== PROJECTS SECTION ==== -->
+    <section class="section section-alt" id="projects">
+      <div class="container">
+        <span class="section-label">Projects</span>
+        <div class="projects-grid">
+          <div class="project-card fade-in">
+            <i class="fa-solid fa-chart-line project-icon"></i>
+            <h3>Project 1</h3>
+            <p class="project-status">Coming soon</p>
+          </div>
+          <div class="project-card fade-in">
+            <i class="fa-solid fa-earth-americas project-icon"></i>
+            <h3>Project 2</h3>
+            <p class="project-status">Coming soon</p>
+          </div>
+          <div class="project-card fade-in">
+            <i class="fa-solid fa-table project-icon"></i>
+            <h3>Project 3</h3>
+            <p class="project-status">Coming soon</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==== FOOTER ==== -->
+    <footer>
+      <div class="container footer-inner">
+        <span class="footer-copy">© 2026 Laiza Andriolo</span>
+        <ul class="footer-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <!-- particles.js -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <!-- D3.js (for the skills bar chart) -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <!-- our JS -->
+    <script src="js.js"></script>
+  </body>
+</html>
